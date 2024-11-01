@@ -1,0 +1,74 @@
+.cont-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../../assets/images/amarillo.avif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: black;
+  text-align: center;
+  .cont-text {
+    margin-top: 5rem;
+  }
+  h1 {
+    font-size: 4.9rem;
+    font-weight: 900;
+    overflow: hidden;
+    white-space: nowrap;
+    
+  }
+  p {
+    font-weight: 700;
+    font-size: 1.3rem;
+    
+   
+  }
+}
+.donation{
+  text-align: left;
+}
+.donation2{
+  text-align: right;
+  margin-top: -199px;
+}
+.donation5{
+  text-align: left;
+    margin-top: 60px;
+}
+.donation4{
+  position: relative; 
+  right: -230px; 
+  margin-top: -190px;
+}
+.donation img {
+  width: 150px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción */
+  /* O puedes usar esto para recortar: */
+  /* height: 50px; object-fit: cover; */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+.donation2 img {
+  width: 150px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción */
+  /* O puedes usar esto para recortar: */
+  /* height: 50px; object-fit: cover; */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+.donation5 img {
+  width: 150px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción */
+  /* O puedes usar esto para recortar: */
+  /* height: 50px; object-fit: cover; */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+.donation4 img {
+  width: 150px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción */
+  /* O puedes usar esto para recortar: */
+  /* height: 50px; object-fit: cover; */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}

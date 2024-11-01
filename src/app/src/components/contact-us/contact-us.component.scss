@@ -1,0 +1,36 @@
+.cont-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../../assets/images/amarilo.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.cont-text {
+  p {
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 5rem;
+  }
+}
+
+.btn-global {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #5a7dff;
+  border: 1px solid #5a7dff;
+}

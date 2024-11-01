@@ -1,0 +1,60 @@
+<div class="cont-hero-image"></div>
+
+<div class="cont-events">
+  @for (card of cards; track $index) {
+  <div class="item-card">
+    <div class="cont-img mb-3">
+      <img
+        [src]="card.pathImg"
+        width="360"
+        height="180"
+        alt="Logo"
+        class="navbar-logo"
+      />
+    </div>
+    <div class="cont-title">
+      <p>{{ card.title }}</p>
+    </div>
+    <div class="cont-description">
+      <p class="paragraphs">{{ card.description }}</p>
+    </div>
+  </div>
+  }
+</div>
+<div class="mas">
+  <p> ALGUNOS CONSEJOS PARA NUESTRAS MASCOTAS </p>
+</div>
+<div class="card-container">
+  <div class="card">
+    <img src='assets/images/FRIO.jpg' alt="Imagen de ejemplo" class="card-img">
+    <div class="card-content">
+      <h3 class="card-title">¿Cómo prevenir el frío en los perros?</h3>
+      <p class="card-description">
+        Hemos de ser conscientes de que los perros, al igual que nosotros, sienten el frío. Independientemente de la raza y del tipo de pelaje, nuestras mascotas pueden estar sufriendo los efectos del cambio de temperatura por debajo de los 4 grados centígrados, en las épocas más frías del año, allí donde nosotros vivamos o desarrollemos nuestra actividad conjunta. Nuestro perro cuenta con una capa de pelo y de grasa en la piel que le protege térmicamente, pero, en determinadas ocasiones, esta protección natural puede resultar insuficiente y, por lo tanto, permitir que el frío penetre en su cuerpo.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="card-center">
+  <div class="card">
+    <img src='assets/images/gatito.webp' alt="Imagen de ejemplo" class="card-imges">
+    <div class="card-cont">
+      <h3 class="card-title">Juegos para gatos: diviértete con tu mascota</h3>
+      <p class="card-description">
+        Puede que el perro sea considerado el mejor amigo del hombre, pero ¿quién dice que un gato no pueda llegar a serlo? Sabemos que sus ronroneos y su mirada cautivadora son tan tiernos como misteriosos, pero hay algunos tips para empezar a crear un vínculo inseparable con tu gato. Uno de ellos es empezar a jugar con él. En el post de hoy te traemos los mejores juegos para gatos para que el aburrimiento no este nunca presente.Jugar es esencial para que nuestros felinos estén sanos, pero también para que ejerciten su mente. Al igual que los seres humanos, cuando los gatos juegan, están ejercitando su mente y su comportamiento natural. 
+      </p>
+    </div>
+  </div>
+</div>
+<div class="card-ringth">
+  <div class="cardes">
+    <img src='assets/images/sol.jpg' alt="Imagen de ejemplo" class="card-imgeese">
+    <div class="card-conter">
+      <h3 class="card-title">Cómo proteger a tu perro del sol y del calor</h3>
+      <p class="card-description">
+        El verano es una de las estaciones más increíbles del año pero el aumento de la temperatura puede ser perjudicial para tu perro, ya que en cuestión de minutos puede sufrir un golpe de calor que incluso podría provocarle la muerte. Esto es debido a que los perros no sudan como los humanos, si no que jadean, siendo esta su forma de disminuir su temperatura corporal. Por eso, es fundamental cuidarlo en esta época del año contra el calor excesivo. Descubre unos consejos para que tu perro pueda disfrutar del verano tanto como tú.
+      </p>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,62 @@
+.cont-home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../../assets/images/dogs-home.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.cont-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 100%;
+  padding: 3rem;
+}
+
+.cont-titles {
+  margin-top: 6rem;
+  font-weight: bold;
+  p {
+    font-size: 1.1rem;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+}
+
+.cont-description {
+  width: 25.8rem;
+  p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0px;
+  }
+}
+
+.cont-btn {
+  align-self: flex-end;
+  margin-right: 3rem;
+}
+
+.btn-global {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #5a7dff;
+}
+
+.btn-secondary {
+  background-color: #ffcd69;
+  border: #ffcd69;
+}

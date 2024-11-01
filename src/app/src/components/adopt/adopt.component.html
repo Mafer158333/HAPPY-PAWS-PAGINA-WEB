@@ -1,0 +1,46 @@
+<div class="cont-hero-image"></div>
+
+<div class="cont-info">
+  <div class="cont-title mb-2">
+    <p>Lista de peludos en adopción</p>
+  </div>
+  <div class="cont-description">
+    <p class="paragraphs">
+      Aquí encontrarás a los mas lindos angelitos felices de estar en un nuevo
+      hogar, ten en cuenta llenar el formulario previo para continuar con la
+      adopción.
+    </p>
+  </div>
+</div>
+<div class="cont-filter mx-3 mb-3">
+  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+    <input type="radio" class="btn-check" name="btnradio" id="Todos" autocomplete="off" [value]="'Todos'" (change)="onOptionChange('Todos')" [checked]="selectedOption === 'Todos'">
+    <label class="btn" [ngClass]="{'btn-outline-primary': selectedOption !== 'Todos', 'btn-primary': selectedOption === 'Todos'}" for="Todos">Todos</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="Jovenes" autocomplete="off" [value]="'Jovenes'" (change)="onOptionChange('Jovenes')" [checked]="selectedOption === 'Jovenes'">
+    <label class="btn" [ngClass]="{'btn-outline-primary': selectedOption !== 'Jovenes', 'btn-primary': selectedOption === 'Jovenes'}" for="Jovenes">Jovenes</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="Mayores" autocomplete="off" [value]="'Mayores'" (change)="onOptionChange('Mayores')" [checked]="selectedOption === 'Mayores'">
+    <label class="btn" [ngClass]="{'btn-outline-primary': selectedOption !== 'Mayores', 'btn-primary': selectedOption === 'Mayores'}" for="Mayores">Mayores</label>
+  </div>
+  
+</div>
+<div class="cont-dogs">
+  @for (dog of filteredDogs; track $index) {
+  <div class="item-card">
+    <div class="cont-img mb-3">
+      <img
+        [src]="dog.pathImg"
+        width="150"
+        height="150"
+        alt="Logo"
+        class="navbar-logo"
+      />
+    </div>
+    <div class="cont-name">
+      <p>{{ dog.name }} {{ dog.age }} años</p>
+    </div>
+  </div>
+  }
+</div>
+
