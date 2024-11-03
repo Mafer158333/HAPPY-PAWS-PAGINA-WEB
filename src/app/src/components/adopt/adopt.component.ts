@@ -1,7 +1,10 @@
 import { NgClass, NgOptimizedImage } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component,inject } from '@angular/core';
 import { DogModel } from './models';
 import { FormsModule, NgModel } from '@angular/forms';
+import { Router } from '@angular/router';
+
+
 
 
 @Component({
@@ -14,7 +17,13 @@ import { FormsModule, NgModel } from '@angular/forms';
 
 export class AdoptComponent {
 
- 
+  router: Router = inject(Router);
+
+  goToAdoptionForm() {
+    this.router.navigate(['/Formulario']);
+  }
+  
+
   selectedOption: string = 'Todos'; // Valor inicial
   dogList: DogModel[] = [
     {
@@ -178,5 +187,3 @@ export class AdoptComponent {
   }
   
 }
-
-

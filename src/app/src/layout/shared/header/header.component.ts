@@ -52,11 +52,6 @@ export class HeaderComponent implements OnInit {
       url: 'contactanos',
     },
     {
-    id: 8,
-    description: 'Formulario',
-    url: 'Formulario'
-    },
-    {
       id: 9,
       description: 'Fundaciones',
       url: 'Fundaciones'

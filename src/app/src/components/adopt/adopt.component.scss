@@ -85,3 +85,30 @@
   margin: 0 auto;
   margin-top: 50px; /* Espaciado opcional */
 }
+.btnj  {
+  padding: 12px 24px; /* Espaciado interno */
+  font-size: 18px; /* Tamaño de fuente */
+  font-weight: bold; /* Peso de la fuente */
+  color: white; /* Color del texto */
+  background-color: #28a745; /* Color de fondo verde */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+  transition: background-color 0.3s, transform 0.2s; /* Efectos de transición */
+}
+
+/* Efecto hover */
+.btn:hover {
+  background-color: #218838; /* Color verde más oscuro al pasar el ratón */
+}
+
+/* Efecto active */
+.btn:active {
+  transform: scale(0.95); /* Efecto de pulsar */
+}
+
+/* Estilo para el botón desactivado */
+.btn:disabled {
+  background-color: #6c757d; /* Color gris para el botón desactivado */
+  cursor: not-allowed; /* Cursor de no permitido */
+}
